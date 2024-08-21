@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>confeitaria da Guilhermina, C.M</title>
+    <link rel="icon" href="img/GUI.png">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- Cabeçalho com Navegação -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-rosa">
+            <a class="navbar-brand" href="index.html">
+                <img src="img/GUI.png" alt="Logotipo" >
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sobre-nos">Sobre Nós</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#bolos">Nossos Produtos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#encomendas">Encomendas</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container mt-5">
+        <div class="row">
+            <!-- Sobre Nós -->
+            <div class="col-md-6" id="sobre-nos" data-aos="fade-up" data-aos-duration="1000">
+                <h2 class="text-chocolate">Sobre Nós</h2>
+                <p>Somos uma confeitaria artesanal dedicada a criar bolos incríveis e personalizados para todas as
+                    ocasiões. Nossa paixão é fazer doces que não apenas encantem o paladar, mas também os olhos.
+                    Trabalhamos com ingredientes de alta qualidade e garantimos que cada bolo seja feito com amor e
+                    cuidado.</p>
+            </div>
+            <!-- Imagem (Adicionar depois) -->
+            <div class="col-md-6" data-aos="fade-up" data-aos-duration="1000">
+                <div class="bg-rosa-forte">
+                    <img src="img/bolo-kitkat-feminino-mulher.jpg" alt="" class="header-image">
+                </div>
+            </div>
+        </div>
+
+        <hr class="my-5">
+
+        <!-- Produtos -->
+        <h2 class="text-center text-chocolate" id="bolos">Nossos Produtos</h2>
+        <div class="row mt-4">
+            <!-- Produto 1 -->
+            <div class="col-md-4" data-aos="fade-up" data-aos-duration="1000">
+                <div class="card">
+                    <div class="card-body bg-rosa-forte">
+                        <img src="img/bolo-kitkat-feminino-mulher.jpg" alt="" class="product-image">
+                        <h5 class="card-title mt-3 text-branco">Bolo de Aniversário</h5>
+                        <p class="card-text text-branco">Delicioso bolo de chocolate com recheio de brigadeiro e
+                            cobertura personalizada e muito atraente.</p>
+                        <p class="text-branco">Preço: R$ 150,00</p>
+                        <button style="border: 1px solid #fff;"
+                            class="btn btn-chocolate btn-block text-white add-to-cart"
+                            data-product="Bolo de Aniversário" data-price="150.00">Adicionar ao Carrinho</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Produto 2 -->
+            <div class="col-md-4" data-aos="fade-up" data-aos-duration="1000">
+                <div class="card">
+                    <div class="card-body bg-rosa-forte">
+                        <img src="img/boc.jpg" alt="" class="product-image">
+                        <h5 class="card-title mt-3 text-branco">Bolo de Casamento</h5>
+                        <p class="card-text text-branco">Elegante bolo de baunilha com camadas de frutas vermelhas e
+                            cobertura de chantilly.</p>
+                        <p class="text-branco">Preço: R$ 300,00</p>
+                        <button style="border: 1px solid #fff;"
+                            class="btn btn-chocolate btn-block text-white add-to-cart" data-product="Bolo de Casamento"
+                            data-price="300.00">Adicionar ao Carrinho</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Produto 3 -->
+            <div class="col-md-4" data-aos="fade-up" data-aos-duration="1000">
+                <div class="card">
+                    <div class="card-body bg-rosa-forte">
+                        <img src="img/Best-Chocolate-Cupcakes-1-of-1.jpg" alt="" class="product-image">
+                        <h5 class="card-title mt-3 text-branco">Cupcakes</h5>
+                        <p class="card-text text-branco">Deliciosos cupcakes com cobertura de buttercream, perfeitos
+                            para festas e eventos.</p>
+                        <p class="text-branco">Preço: R$ 50,00</p>
+                        <button style="border: 1px solid #fff;"
+                            class="btn btn-chocolate btn-block text-white add-to-cart" data-product="Cupcakes"
+                            data-price="50.00">Adicionar ao Carrinho</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <hr class="my-5">
+
+        <!-- Depoimentos -->
+        <h2 class="text-center text-chocolate">Depoimentos de Clientes</h2>
+        <div class="row mt-4">
+            <div class="col-md-6" data-aos="fade-up" data-aos-duration="1000">
+                <blockquote class="blockquote">
+                    <p class="mb-0">"O bolo de casamento foi absolutamente perfeito! Não apenas estava delicioso, mas a
+                        apresentação foi espetacular. Recomendo a todos!"</p>
+                    <footer class="blockquote-footer">Maria Silva</footer>
+                </blockquote>
+            </div>
+            <div class="col-md-6" data-aos="fade-up" data-aos-duration="1000">
+                <blockquote class="blockquote">
+                    <p class="mb-0">"Os cupcakes foram um sucesso na festa de aniversário do meu filho. Fizeram o dia
+                        ainda mais especial. Muito obrigada!"</p>
+                    <footer class="blockquote-footer">Joana Souza</footer>
+                </blockquote>
+            </div>
+        </div>
+    </main>
+    <!-- Botão do WhatsApp -->
+    <a href="https://wa.me/teunumerowhatsapp" class="whatsapp-float" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Rodapé -->
+    <footer id="footer">
+        <div class="footer-container">
+            <!-- Contato -->
+            <div class="footer-section contact" style="background-color: #7c38008e; box-shadow: 0px 0px 10px #7c3800;">
+                <h2>Contato</h2>
+                <ul>
+                    <li>Email: lojas@bolos.com</li>
+                    <li>Telefone: +23 99 8835-75</li>
+                </ul>
+            </div>
+            <!-- Redes Sociais -->
+            <div class="footer-section social" style="background-color: #7c380082; box-shadow: 0px 0px 10px #7c3800;">
+                <h2>Siga-nos</h2>
+                <ul class="social-icons">
+                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fab fa-tiktok"></i></a></li>
+                </ul>
+            </div>
+            <!-- Links Rápidos -->
+            <div class="footer-section links" style="background-color: #7c38008c; box-shadow: 0px 0px 10px #7c3800;">
+                <h2>Links Rápidos</h2>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#sobre-nos">Sobre Nós</a></li>
+                    <li><a href="#bolos">Bolos</a></li>
+                    <li><a href="#encomendas">Encomendas</a></li>
+                </ul>
+            </div>
+            <div class="footer-section about" style="background-color: #7c380081; box-shadow: 0px 0px 10px #7c3800;">
+                <h2>Sobre Nós</h2>
+                <p><i class="far fa-clock"></i> Funcionamos das 8:30 às 19:00, de segunda a sábado</p>
+                <p> Somos uma confeitaria artesanal dedicada a criar bolos incríveis e personalizados para todas as
+                    ocasiões. Nossa paixão é fazer doces que não apenas encantem o paladar, mas também os olhos.
+                    Trabalhamos com ingredientes de alta qualidade e garantimos que cada bolo seja feito com amor e
+                    cuidado. </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" async></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" async></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" async></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" async></script>
+    <script src="scripts.js"></script> <!-- Mova o JavaScript personalizado para um arquivo separado -->
+
+</body>
+
+</html>
